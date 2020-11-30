@@ -1,8 +1,14 @@
+body {
+  background-color: #BAB2B5;
+  text-align: center;
+}
+
 ul.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: #5D5C61;
 }
 
 li.navbar {
@@ -12,5 +18,15 @@ li.navbar {
 li a.navbar {
   display: block;
   text-decoration: none;
-  padding: 3px;
+  color: white;
+  padding: 14px 16px;
+  background-color: #5D5C61;
+}
+
+li a.navbar:hover {
+  background-color: #557A95;
+}
+
+#active {
+  background-color: #7395AE;
 }
